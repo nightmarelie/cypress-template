@@ -1,0 +1,28 @@
+{
+  "name": "backbone",
+  "version": "1.0.0",
+  "description": "Tets backbone app",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nightmarelie/cypress-template"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "open": "cypress open",
+    "lint": "eslint --fix cypress/*/*.js"
+  },
+  "keywords": [],
+  "author": "Aleksey Kryvtsov <nightmarelie@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^3.4.1",
+    "eslint": "^6.1.0",
+    "eslint-plugin-chai-friendly": "^0.4.1",
+    "eslint-plugin-cypress": "^2.6.1",
+    "eslint-plugin-mocha": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=0.12"
+  }
+}
