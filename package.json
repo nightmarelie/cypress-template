@@ -10,7 +10,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "open": "cypress open",
-    "lint": "eslint --fix cypress/*/*.js"
+    "lint": "eslint --fix cypress/*/*.js",
+    "format": "prettier --write cypress/*/*.js"
   },
   "keywords": [],
   "author": "Aleksey Kryvtsov <nightmarelie@gmail.com>",
@@ -20,7 +21,8 @@
     "eslint": "^6.1.0",
     "eslint-plugin-chai-friendly": "^0.4.1",
     "eslint-plugin-cypress": "^2.6.1",
-    "eslint-plugin-mocha": "^6.0.0"
+    "eslint-plugin-mocha": "^6.0.0",
+    "prettier": "^1.18.2"
   },
   "engines": {
     "node": ">=0.12"
